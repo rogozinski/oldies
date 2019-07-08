@@ -1,0 +1,43 @@
+/*----GENERAL----*/
+body{
+	background-image: url('gfx/halftone-yellow.png');
+	background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+
+/*----HEADER PROPERTIES----*/
+select{
+	height: 26px;
+	width: 100px;
+}
+.btn{
+	height: 26px;
+	width: 100px;
+}
+
+
+/*----TABLE PROPERTIES----*/
+table{
+	table-layout: fixed;
+	background-color: white;
+}
+thead{
+	background-color: #494430;
+	color: #fff;
+}
+td{
+	word-wrap:break-word
+}
+
+
+/*----GLYPH ICON PROPERTIES----*/
+table.glyphicon-hover .glyphicon{
+	visibility: hidden;
+	padding-left: 10px;
+}
+table.glyphicon-hover tr:hover .glyphicon{
+	visibility: visible;
+	cursor: pointer;
+}
