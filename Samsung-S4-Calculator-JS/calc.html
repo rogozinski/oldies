@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator - Michal Rogozinski - FrontEnd</title>
+	<link rel="stylesheet" href="calc_style.css">
+	<script src="calc_script.js"></script>
+</head>
+
+<body>
+	<main>
+	<div class="calculator_layout">
+		<h5>Samsung 4 Calculator</h5>
+		<br>
+	<form name="calc_form">
+		<div>
+			<input type="text" id="display" name="calc_display" disabled>
+		<div class="buttons">
+			<input type="button" name="clear" value="C" class="blue"  onClick="clean()">
+			<input type="button" name="division" value="/" class="blue" onClick="calc(division.value)">
+			<input type="button" name="multiplication" value="*" class="blue" onClick="calc(multiplication.value)">
+			<input type="button" name="backspace" value="<=" class="blue" onClick="backslash(calc_display.value)">
+		
+		<br>
+			
+			<input type="button" name="num7" value="7" onClick="calc(num7.value)">
+			<input type="button" name="num8" value="8" onClick="calc(num8.value)">
+			<input type="button" name="num9" value="9" onClick="calc(num9.value)">
+			<input type="button" name="subtraction" value="-" class="blue" onClick="calc(subtraction.value)">
+		<br>
+			
+			<input type="button" name="num4" value="4" onClick="calc(num4.value)">
+			<input type="button" name="num5" value="5" onClick="calc(num5.value)">
+			<input type="button" name="num6" value="6" onClick="calc(num6.value)">
+			<input type="button" name="addition" value="+" class="blue" onClick="calc(addition.value)">
+		<br>
+			
+			<input type="button" name="num1" value="1" onClick="calc(num1.value)">
+			<input type="button" name="num2" value="2" onClick="calc(num2.value)">
+			<input type="button" name="num3" value="3" onClick="calc(num3.value)">
+			<input type="button" name="brackets" value="()" class="blue">
+		<br>
+			
+			<input type="button" name="num0" value="0" onClick="calc(num0.value)">
+			<input type="button" name="sym_dot" value="." onClick="calc(sym_dot.value)">
+			<input type="button" name="sym_plus_minus" value="+/-">
+			<input type="button" name="equal" value="=" class="red" onClick="calculate()">
+		</div>
+		</div>
+	</form>
+	<a href="http://rogozinski.online"><h6>Michal Rogozinski</h6></a>
+	</div>
+	</main>
+</body>
+</html>
